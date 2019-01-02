@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Amsdam';
+  src: url('../fonts/Amsdam-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CrimsonText-Italic';
+  src: url('../fonts/CrimsonText-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CrimsonText-Roman';
+  src: url('../fonts/crimsontext-roman.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+$font-amsdam:  'Amsdam', sans-serif;
+$font-crimson:'CrimsonText-Italic', serif;
+$font-crimson-roman: 'CrimsonText-Roman', serif;
+$font-montserrat-bold:'Montserrat-Bold', sans-serif;
+$font-montserrat-regular: 'Montserrat-Regular', sans-serif;
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
