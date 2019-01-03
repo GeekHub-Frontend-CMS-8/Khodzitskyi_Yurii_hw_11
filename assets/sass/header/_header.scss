@@ -1,9 +1,9 @@
 .header {
   &__wrapper {
     position: fixed;
-    width: 100%;
-    padding: 18px 0;
+    padding: 12px 0;
     width: 50%;
+    z-index: 1000;
   }
   &__logo__wrapper {
     display: flex;

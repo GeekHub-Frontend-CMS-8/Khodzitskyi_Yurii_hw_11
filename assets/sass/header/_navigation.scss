@@ -62,7 +62,7 @@
 }
 @keyframes bg-animation {
   0% {
-    width: 10%;
+    width: 0%;
   }
 
   100% {
@@ -73,6 +73,7 @@
   position: fixed;
   width: 100%;
   display:block;
+  z-index: 999;
 }
 #menu {
   display:none;
@@ -81,6 +82,8 @@
 @media screen and (min-width: 950px) {
   .header__wrapper {
     width: 100%;
+    padding: 18px 0;
+    background-color: #fff;
   }
   /* #menu is the original menu */
   #menu {
