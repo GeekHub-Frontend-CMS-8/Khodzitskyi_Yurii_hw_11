@@ -39,3 +39,15 @@ $font-montserrat-regular: 'Montserrat-Regular', sans-serif;
   font-weight: 400;
   text-decoration: none;
 }
+.section-headline {
+  margin: 60px auto 40px;
+  text-align: center;
+  font-family: 'amsdam',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  &--dark {
+    padding: 0 0 10px 0;
+    color: #3e3d3d;
+  }
+}
