@@ -54,6 +54,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      border-bottom: 2px solid #b0b0b0;
     }
     &__headline-text {
       max-width: 80px;
@@ -82,5 +83,9 @@
   }
   .homepage__about-us__bottom-container__item-border {
     border-left: 1px solid #b0b0b0;
+    border-bottom: 1px solid transparent;
+  }
+  .homepage__about-us__bottom-container__item {
+    border-bottom: 2px solid rgba(176, 176, 176, 0);
   }
 }

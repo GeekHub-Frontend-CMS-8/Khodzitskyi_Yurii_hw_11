@@ -40,7 +40,7 @@ $font-montserrat-regular: 'Montserrat-Regular', sans-serif;
   text-decoration: none;
 }
 .section-headline {
-  margin: 60px auto 40px;
+  padding: 60px 10px 40px;
   text-align: center;
   font-family: 'amsdam',sans-serif;
   font-size: 20px;
@@ -49,5 +49,9 @@ $font-montserrat-regular: 'Montserrat-Regular', sans-serif;
   &--dark {
     padding: 0 0 10px 0;
     color: #3e3d3d;
+  }
+  &--white {
+    padding: 0 0 10px 0;
+    color: #fff;
   }
 }
