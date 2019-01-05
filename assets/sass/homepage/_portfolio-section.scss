@@ -1,41 +1,91 @@
-.homepage__portfolio__button {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 2px solid #3e3d3d;
-  background-color: #fff;
-  color: #3e3d3d;
-  font-family: 'Montserrat-Regular', sans-serif;
-  font-size: 11px;
-  font-weight: 600;
-  cursor: pointer;
-  outline: none;
-}
-.homepage__portfolio__button.is-checked {
-  color: white;
-  background-color: #3e3d3d;
-}
-.homepage__portfolio__item {
-  &__container {
+.homepage__portfolio {
+  &__button {
+    margin: 2px;
+    border: 2px solid #3e3d3d;
+    outline: none;
+    color: #3e3d3d;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: #3e3d3d;
+      color: #fff;
+    }
+  }
+  &__button__container {
+    margin-bottom: 65px;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  &__item {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+    &__container {
+      width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      align-content: center;
+    }
+    &__1 {
+      height: 415px;
+    }
+    &__2 {
+      height: 270px;
+    }
+    &__3 {
+      height: 300px;
+      img {
+        width: 100%;
+      }
+    }
+    &__4 {
+      height: 385px;
+    }
+    &__5 {
+      height: 230px;
+    }
+    &__6 {
+      height: 455px;
+    }
+    &__7 {
+      height: 435px;
+    }
+    &__8 {
+      height: 250px;
+    }
   }
 }
 
+@media only screen and (min-width: 580px) {
+  .homepage__portfolio__item {
+    max-width: 300px;
+    &__container {
+      height: 1380px;
 
-
-
-/* ---- .element-item ---- */
-
-.homepage__portfolio__item {
-  position: relative;
-  width: 25%;
-  height: 200px;
-  border: 2px solid red;
-  padding: 10px;
-  background: #888;
-  color: #262524;
+    }
+  }
 }
+@media only screen and (min-width: 992px) {
+  .homepage__portfolio__item {
+    max-width: 25%;
+    &__container {
+      height: 685px;
 
-
+    }
+  }
+}
 
 
