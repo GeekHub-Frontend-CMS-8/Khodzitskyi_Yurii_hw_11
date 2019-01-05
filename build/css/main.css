@@ -1057,3 +1057,38 @@ table {
     padding: 3px;
     text-decoration: none;
     color: #3e3d3d; }
+
+.homepage__portfolio__button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #3e3d3d;
+  background-color: #fff;
+  color: #3e3d3d;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none; }
+
+.homepage__portfolio__button.is-checked {
+  color: white;
+  background-color: #3e3d3d; }
+
+.homepage__portfolio__item__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap; }
+
+/* ---- .element-item ---- */
+.homepage__portfolio__item {
+  position: relative;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+  padding: 10px;
+  background: #888;
+  color: #262524; }
