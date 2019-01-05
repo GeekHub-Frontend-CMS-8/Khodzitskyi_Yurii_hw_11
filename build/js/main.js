@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 });
 
-$(function() {
+(function() {
 
     'use strict';
 
