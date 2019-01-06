@@ -1433,3 +1433,85 @@ table {
   list-style: none; }
   .homepage__clients__item__wrapper li {
     margin: 15px; }
+
+.homepage__testimonials__wrapper {
+  padding: 70px 0;
+  background: url("../img/homepage/homepage__testimonials__background.png") center no-repeat;
+  background-size: cover; }
+  .homepage__testimonials__wrapper .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none; }
+    .homepage__testimonials__wrapper .slick-dots button {
+      width: 100%;
+      max-width: 14px;
+      height: 14px;
+      border-radius: 100%;
+      outline: none;
+      background-color: #c5c5c5;
+      margin: 2px;
+      border: none; }
+    .homepage__testimonials__wrapper .slick-dots .slick-active button {
+      background-color: #e3e3e3; }
+
+.homepage__testimonials__slider {
+  max-width: 820px;
+  margin: 0 auto; }
+  .homepage__testimonials__slider__item {
+    text-align: center; }
+    .homepage__testimonials__slider__item__image-wrapper {
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%;
+      max-width: 105px;
+      height: 105px;
+      border-radius: 100%;
+      overflow: hidden; }
+      .homepage__testimonials__slider__item__image-wrapper img {
+        width: 100%; }
+    .homepage__testimonials__slider__item__cite {
+      position: relative;
+      color: #efefef;
+      font-family: 'CrimsonText-Italic', serif;
+      font-size: 20px;
+      line-height: 10px; }
+      .homepage__testimonials__slider__item__cite::before {
+        position: relative;
+        bottom: -35px;
+        content: '“ ';
+        color: #efefef;
+        font-family: 'CrimsonText-Italic', serif;
+        font-size: 90px; }
+      .homepage__testimonials__slider__item__cite::after {
+        content: ' „';
+        color: #efefef;
+        font-family: 'CrimsonText-Italic', serif;
+        font-size: 90px; }
+    .homepage__testimonials__slider__item__name {
+      margin: 55px auto 20px;
+      color: #e3e3e3;
+      font-family: 'Montserrat-Regular', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .homepage__testimonials__slider__item__position {
+      margin-bottom: 40px;
+      color: #efefef;
+      font-family: 'CrimsonText-Italic', serif;
+      font-size: 14px; }

@@ -6,6 +6,12 @@ $(document).ready(function(){
 
 });
 });
+$(document).ready(function(){
+    $('.homepage__testimonials__slider').slick({
+        arrows : false,
+        dots : true,
+    });
+});
 
 (function() {
 
