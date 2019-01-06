@@ -1147,3 +1147,119 @@ table {
     max-width: 25%; }
     .homepage__portfolio__item__container {
       height: 685px; } }
+
+.homepage__prices__wrapper {
+  background-color: #e3e3e3;
+  padding: 0 10px 90px; }
+
+.homepage__prices__item {
+  margin: 15px;
+  width: 100%;
+  max-width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 45px 65px 55px;
+  background-color: #fff;
+  text-align: center; }
+  .homepage__prices__item__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .homepage__prices__item__headline {
+    color: #3e3d3d;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .homepage__prices__item__divider__wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 25px auto; }
+  .homepage__prices__item__divider {
+    width: 39%;
+    border-top: 1px solid #504f4f; }
+  .homepage__prices__item__divider__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #504f4f;
+    border-radius: 100%;
+    font-size: 20px; }
+  .homepage__prices__item__price {
+    position: relative;
+    margin-bottom: 30px;
+    color: #3e3d3d;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 70px;
+    font-weight: 700; }
+    .homepage__prices__item__price sup {
+      position: absolute;
+      left: 7%;
+      color: #3e3d3d;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      vertical-align: super; }
+    .homepage__prices__item__price__list {
+      margin-bottom: 50px;
+      list-style: none;
+      color: #3e3d3d;
+      font-family: 'CrimsonText-Italic', serif;
+      font-size: 16px;
+      line-height: 30px; }
+  .homepage__prices__item__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto auto 0;
+    justify-self: flex-end;
+    padding: 0;
+    width: 100%;
+    max-width: 140px;
+    min-height: 40px;
+    color: #3e3d3d;
+    border: 2px solid #3e3d3d;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .homepage__prices__item__button:hover {
+      background-color: #3e3d3d;
+      color: #fff; }
+
+@media only screen and (min-width: 400px) {
+  .homepage__prices__item__price sup {
+    left: 25%; } }
