@@ -1342,7 +1342,8 @@ table {
   flex-flow: row wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #232325; }
 
 .homepage__blog-section__items__image-wrapper {
   overflow: hidden;
@@ -1412,3 +1413,23 @@ table {
 @media only screen and (min-width: 1470px) {
   .homepage__blog-section__item {
     width: 25%; } }
+
+.homepage__clients__wrapper {
+  padding-bottom: 90px; }
+
+.homepage__clients__item__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none; }
+  .homepage__clients__item__wrapper li {
+    margin: 15px; }

@@ -1,0 +1,15 @@
+.homepage__clients {
+  &__wrapper {
+    padding-bottom: 90px;
+  }
+  &__item__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    li {
+      margin: 15px;
+    }
+  }
+}
