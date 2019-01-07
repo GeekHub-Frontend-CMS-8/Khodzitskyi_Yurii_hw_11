@@ -1,0 +1,32 @@
+.blog-with-sidebar__top-section {
+  &__wrapper {
+    padding: 170px 10px 120px;
+    background: url("../img/blog-with-sidebar/blog-with-sidebar__top-section__background.png") center no-repeat;
+    background-size: cover;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__headline {
+    margin: 0 auto 20px;
+    background: none;
+    text-align: center;
+  }
+  &__divider {
+    max-width: 320px;
+  }
+  &__navigation-list {
+    margin-top: 25px;
+    max-width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  &__navigation-item {
+    text-decoration: none;
+    margin: 3px;
+    color: #fff;
+  }
+}

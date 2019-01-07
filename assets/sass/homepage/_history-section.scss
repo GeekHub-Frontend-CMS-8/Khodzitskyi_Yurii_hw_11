@@ -33,7 +33,7 @@
       text-decoration: none;
     }
     &__item {
-      time {
+      &__date {
         display: block;
         color: #3e3d3d;
         font-family: 'Montserrat-Regular', sans-serif;
@@ -45,7 +45,7 @@
       &:hover {
         background-color: #3e3d3d;
         color: #e4e4e4;
-        time {
+        p {
           color: #e4e4e4;
         }
         .homepage__history__timeline__headline{

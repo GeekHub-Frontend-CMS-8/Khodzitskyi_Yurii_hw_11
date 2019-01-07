@@ -1,0 +1,135 @@
+.sidebar {
+  margin: 40px 0 0 0;
+  width: 100%;
+  &__search-form {
+    &__wrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border: 2px solid #a8a8a8;
+      height: 40px;
+    }
+    &__input-text {
+      flex-grow: 1;
+      padding-left: 16px;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      color: #3e3d3d;
+      font-size: 14px;
+      font-style: italic;
+    }
+    &__submit-button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+  &__latest-posts {
+    &__wrapper {
+      margin-top: 35px;
+      & :last-child {
+        border: none;
+      }
+    }
+    &__main-headline {
+      color: #3e3d3d;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+    &__item {
+      padding: 33px 0;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #b7b7b7;
+      &__image-wrapper {
+        width: 100%;
+        max-width: 110px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+      &__text {
+        margin-left: 20px;
+        &__headline {
+          color: #3e3d3d;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+        &__paragraph {
+          margin-top: 10px;
+          color: #3e3d3d;
+          font-family: 'CrimsonText-Italic', serif;
+          font-size: 14px;
+          line-height: 25px;
+          /* Text style for "N, ullam l" */
+          letter-spacing: 1.4px;
+        }
+      }
+    }
+  }
+  &__list {
+    &__wrapper {
+      margin-bottom: 60px;
+    }
+    &__main-headline {
+      color: #3e3d3d;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    &__list {
+      list-style: none;
+    }
+    &__list__item {
+      padding: 22px 0;
+      border-bottom: 1px solid #b7b7b7;
+      a {
+        text-decoration: none;
+        color: #3e3d3d;
+        font-family: 'CrimsonText-Italic', serif;
+        font-size: 16px;
+      }
+    }
+  }
+  &__photos {
+    &__wrapper {}
+    &__headline {
+      margin-bottom: 30px;
+      color: #3e3d3d;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    &__list {
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    &__item {
+      width: 100%;
+      max-width: 90px;
+      margin: 9px 0;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    margin: 0 0 0 25px;
+    max-width: 300px;
+  }
+}
