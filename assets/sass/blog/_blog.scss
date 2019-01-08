@@ -1,0 +1,33 @@
+.blog__content {
+  &__wrapper {
+    padding-top: 85px;
+    background-color: #e3e3e3;
+    background-image: url("../../img");
+  }
+  &__container {
+    padding-bottom: 90px;
+    column-count: 1;
+  }
+  &__main__article {
+    margin: 0 auto 55px;
+    width: 100%;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+.blog__top-section__wrapper {
+  background-image: url("../img/blog/blog__background__image.png");
+}
+@media only screen and (min-width: 620px) {
+  .blog__content__container {
+    column-count: 2;
+  }
+  .blog__content__main__article {
+    max-width: 367px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .blog__content__container {
+    column-count: 3;
+  }
+}
