@@ -1887,7 +1887,8 @@ table {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    border-bottom: 1px solid #b7b7b7; }
+    border-bottom: 1px solid #b7b7b7;
+    text-decoration: none; }
     .sidebar__latest-posts__item__image-wrapper {
       width: 100%;
       max-width: 110px;
@@ -1991,6 +1992,9 @@ table {
   .blog__content__container {
     -webkit-column-count: 3;
     column-count: 3; } }
+
+.post-with-sidebar__top-section__wrapper {
+  background-image: url("../img/post-with-sidebar/post-with-sidebar__background.png"); }
 
 .post-with-sidebar__content__cite {
   margin-top: 40px;
@@ -2138,7 +2142,10 @@ table {
       background-color: transparent;
       color: #464646; }
   .post-with-sidebar__content__form__input-text {
-    color: black; }
+    color: #3e3d3d;
+    max-width: 100%; }
+  .post-with-sidebar__content__form__input-textarea {
+    color: #3e3d3d; }
 
 @media only screen and (min-width: 768px) {
   .post-with-sidebar__content__comments__item__wrapper {
@@ -2147,4 +2154,8 @@ table {
     -ms-flex-direction: row;
     flex-direction: row; }
   .post-with-sidebar__content__comments__item__text-wrapper {
-    margin-left: 30px; } }
+    margin-left: 30px; }
+  .post-with-sidebar__content__form__input-text {
+    max-width: 390px; }
+  .post-with-sidebar__content__form__input-textarea {
+    max-width: 100%; } }

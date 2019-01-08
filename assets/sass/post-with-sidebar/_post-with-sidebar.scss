@@ -1,4 +1,7 @@
 .post-with-sidebar {
+  &__top-section__wrapper {
+    background-image: url("../img/post-with-sidebar/post-with-sidebar__background.png");
+  }
   &__content {
     &__cite {
       margin-top: 40px;
@@ -131,7 +134,11 @@
         }
       }
       &__input-text {
-        color: black;
+        color: #3e3d3d;
+        max-width: 100%;
+      }
+      &__input-textarea {
+        color: #3e3d3d;
       }
     }
   }
@@ -142,5 +149,11 @@
   }
   .post-with-sidebar__content__comments__item__text-wrapper {
     margin-left: 30px;
+  }
+  .post-with-sidebar__content__form__input-text {
+    max-width: 390px;
+  }
+  .post-with-sidebar__content__form__input-textarea {
+    max-width: 100%;
   }
 }
